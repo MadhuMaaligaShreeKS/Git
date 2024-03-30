@@ -1,0 +1,3 @@
+$ git init - create blank new repository
+$ git init NewDirectory -  create a new blank repository and a directory together
+$ git status - list all the untracked files 

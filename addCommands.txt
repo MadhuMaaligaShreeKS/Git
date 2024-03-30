@@ -1,0 +1,12 @@
+$ git add <File name> - adds files to the staging area. We can add single or multiple files at once in the staging area.
+Git Add All
+    $ git add -A  or $ git add .
+
+Removing Files from the Staging Area
+git add --ignore-removal . - Add all New and Updated Files Only 
+$ git add -u - Add all Modified and Deleted Files
+Add Files by Wildcard
+ $ git add *.java-Git allows us to add all the same pattern files at once. It is another way to add multiple files together. 
+ To undo an add operation
+    $ git reset <filename>  
+    git reset . - resets all files
